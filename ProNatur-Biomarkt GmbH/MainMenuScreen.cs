@@ -26,5 +26,14 @@ namespace ProNatur_Biomarkt_GmbH
             // this bezieht sich immer auf der oben genannten Klasse
             this.Hide();
         }
+
+        private void btnBill_Click(object sender, EventArgs e)
+        {
+            BillScreen billScreen = new BillScreen();
+            billScreen.Show();
+
+            // Siehe oben
+            this.Hide();
+        }
     }
 }
